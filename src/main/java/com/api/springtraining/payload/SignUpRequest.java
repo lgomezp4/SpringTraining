@@ -1,4 +1,4 @@
-package api.testSprint.payload;
+package com.api.springtraining.payload;
 
 public class SignUpRequest {
     private String name;

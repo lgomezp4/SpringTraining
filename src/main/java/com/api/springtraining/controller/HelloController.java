@@ -1,4 +1,4 @@
-package api.testSprint.controller;
+package com.api.springtraining.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,7 +16,7 @@ public class HelloController {
         return String.format("Hello %s!", name);
     }
 
-    @PostMapping("/bye")
+    @GetMapping("/bye")
     public String bye(HttpServletRequest request, HttpServletResponse response) {
         String name = request.getParameter("name");
         return "Bye " + name;

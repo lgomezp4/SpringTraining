@@ -1,4 +1,4 @@
-package api.testSprint.entities;
+package com.api.springtraining.entities;
 
 public class BaseUser {
 
